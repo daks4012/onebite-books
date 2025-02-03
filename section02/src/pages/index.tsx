@@ -8,6 +8,8 @@ export default function Home() {
   <h2 className={style.h2}>이건 블루로</h2>
   </>
 }
+
+//메서드 장착
 Home.getLayout = (page: ReactNode) => {
   return <SearchAbleLayout>{page}</SearchAbleLayout>
 }

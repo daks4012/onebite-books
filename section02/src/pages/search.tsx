@@ -8,6 +8,7 @@ export default function Page() {
       return <h1>서치 페이지{q}</h1>
 }
 
+//메서드 장착
 Page.getLayout = (page: ReactNode) => {
   return <SearchAbleLayout>{page}</SearchAbleLayout>
 }
